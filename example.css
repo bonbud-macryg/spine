@@ -1,0 +1,168 @@
+/* General page styling */
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light off-white background */
+  color: #333; /* Neutral text color */
+  line-height: 1.6;
+}
+
+/* Heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212529;
+  margin: 0.5em 0;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+/* Link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+button {
+  padding: 0.5em 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Form styling */
+form {
+  margin: 1em 0;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="radio"] {
+  margin: 0.5em 0;
+}
+
+/* Paragraph styling */
+p {
+  margin: 1em 0;
+}
+
+/* Code block styling */
+code {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #e9ecef;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25em;
+}
+
+pre {
+  background-color: #e9ecef;
+  padding: 1em;
+  border-radius: 0.25em;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* List styling */
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Mark styling */
+mark {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+/* Subscript and Superscript styling */
+sub {
+  vertical-align: sub;
+  font-size: 0.75em;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 0.75em;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25em;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+th,
+td {
+  padding: 0.75em;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+thead {
+  background-color: #f1f1f1;
+}
+
+tfoot {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+caption {
+  caption-side: top;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
